@@ -1,2 +1,3 @@
 1. Check for sorted rotated array : you are given an array and you need to find if it is sorted and rotated once. consider case like:[2,1,3,4].
-2. Kadane's philosophy: If some part of past is adding negative value or decreasing your potential then ignore the past. and move on with the present :).
+2. Kadane's philosophy : If some part of past is adding negative value or decreasing your potential then ignore the past. and move on with the present :).
+3. Longest Consecutive Sequence : in a given array you have to find longest consecutive seq possible ex: [1,9,4,2,6,7] ans:[1,2,4] for this place the array in a set. then for every element see if element-1 is present in the set. if present skip else search for element+1,element+2 ... until it breaks it takes around O(3n).
